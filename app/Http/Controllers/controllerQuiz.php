@@ -22,7 +22,7 @@ class controllerQuiz extends Controller
         return view ('pagina01') ;
     }
 
-    public function dadosPagina1( Request $request){
+    public function dadosPagina01( Request $request){
          $resposta = $request->input ('pergunta');
         
          session(['resposta01' => $resposta]) ;
@@ -38,7 +38,7 @@ class controllerQuiz extends Controller
          return view ('pagina02') ;
     }
 
-    public function dadosPagina2( Request $request){
+    public function dadosPagina02( Request $request){
         $resposta = $request->input ('pergunta');
        
         session(['resposta02' => $resposta]) ;
@@ -54,7 +54,7 @@ class controllerQuiz extends Controller
         return view ('pagina03') ;
    }
 
-   public function dadosPagina3( Request $request){
+   public function dadosPagina03( Request $request){
         $resposta = $request->input ('pergunta');
    
         session(['resposta03' => $resposta]) ;
@@ -70,7 +70,7 @@ class controllerQuiz extends Controller
         return view ('pagina04') ;
     }
 
-    public function dadosPagina4( Request $request){
+    public function dadosPagina04( Request $request){
         $resposta = $request->input ('pergunta');
        
         session(['resposta04' => $resposta]) ;
@@ -85,7 +85,7 @@ class controllerQuiz extends Controller
        
         return view ('pagina05') ;
    }
-   public function dadosPagina5( Request $request){
+   public function dadosPagina05( Request $request){
         $resposta = $request->input ('pergunta');
        
         session(['resposta05' => $resposta]) ;

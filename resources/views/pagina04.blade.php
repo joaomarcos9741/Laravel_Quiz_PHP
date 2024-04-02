@@ -10,7 +10,7 @@
                 </p>
             </div>
         </div>
-        <form action="{{route(dadosPagina)}}" method="POST">
+        <form action="{{route('dadosPagina04')}}" method="POST">
             @csrf
             <div class="form-group py-4">
                 <label for="pergunta"> <h3> <strong>Qual e o time com mais títulos da Champions League</strong> </h3> </label>

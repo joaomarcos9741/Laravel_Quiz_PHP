@@ -10,7 +10,7 @@
                 </p>
             </div>
         </div>
-        <form action="{{route(dadosPagina)}}" method="POST">
+        <form action="{{route('dadosPagina05')}}" method="POST">
             @csrf
             <div class="form-group py-4">
                 <label for="pergunta"> <h3> <strong>Em qual foi o primeiro ano da Champions League</strong> </h3> </label>

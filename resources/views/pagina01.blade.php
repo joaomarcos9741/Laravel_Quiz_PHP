@@ -10,7 +10,7 @@
                 </p>
             </div>
         </div>
-        <form action="{{route(dadosPagina)}}" method="POST">
+        <form action="{{route('dadosPagina01')}}" method="POST">
             @csrf
             <div class="form-group py-4">
                 <label for="pergunta"> <h3> <strong> Quem foi o jogador que fez mais assistencias na Champions League</strong> </h3> </label>
